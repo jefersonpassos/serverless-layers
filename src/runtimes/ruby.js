@@ -15,7 +15,6 @@ class RubyRuntime {
       packageManagerExtraArgs: '',
       dependenciesPath: 'Gemfile',
       compatibleRuntimes: [runtime],
-      compatibleArchitectures: parent.compatibleArchitectures,
       copyBeforeInstall: [
         'Gemfile.lock'
       ],

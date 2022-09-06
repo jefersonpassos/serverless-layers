@@ -14,7 +14,6 @@ class PythonRuntime {
       packageManagerExtraArgs: '',
       dependenciesPath: 'requirements.txt',
       compatibleRuntimes: [runtime],
-      compatibleArchitectures: parent.compatibleArchitectures,
       copyBeforeInstall: [],
       packageExclude: [
         'package.json',

@@ -13,7 +13,6 @@ class NodeJSRuntime {
       packageManagerExtraArgs: '',
       dependenciesPath: 'package.json',
       compatibleRuntimes: [runtimeDir],
-      compatibleArchitectures: parent.compatibleArchitectures,
       copyBeforeInstall: [
         '.npmrc',
         'yarn.lock',

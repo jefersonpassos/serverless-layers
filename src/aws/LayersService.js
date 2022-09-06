@@ -10,7 +10,6 @@ class LayersService extends AbstractService {
       LayerName: this.layerName,
       Description: 'created by serverless-layers plugin',
       CompatibleRuntimes: this.plugin.settings.compatibleRuntimes,
-      CompatibleArchitectures: this.plugin.settings.compatibleArchitectures
     };
 
     return this.awsRequest('Lambda:publishLayerVersion', params, { checkError: true })
